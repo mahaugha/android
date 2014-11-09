@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/info"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Displays text Enter text on the screen -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter text" />
+
+    <!-- Text Editor -->
+
+    <EditText
+        android:id="@+id/searchtext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_device_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On Device Search" />
+    <Button
+        android:id="@+id/button_web_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web Search" />
+    <ListView
+        android:id="@+id/list_apps"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+    />
+    <ListView 
+        android:id="@+id/list_web"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        />
+
+
+</LinearLayout>
